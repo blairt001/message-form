@@ -1,0 +1,26 @@
+{
+    "name": "blairt/message-form",
+    "description": "Creates a message form to be used in an application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Okoth",
+            "email": "blairt371.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Blairt\\Message\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blairt\\Message\\MessageServiceProvider"
+            ]
+        }
+    }
+}
